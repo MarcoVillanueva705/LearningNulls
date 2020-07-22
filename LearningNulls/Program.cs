@@ -12,7 +12,7 @@ namespace LearningNulls
             //you get the default string since first string is Null
             var s2 = s ?? "default";
 
-            Console.Write(s2)
+            Console.Write(s2);
         }
     }
 }
