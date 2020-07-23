@@ -13,6 +13,17 @@ namespace LearningNulls
             var s2 = s ?? "default";
 
             Console.Write(s2);
+
+            //null coalescing does not work with value types
+            //because value types cannot be Null unless specified
+            //explicitly i.e. 'int' etc.
+            //use the '?'  in order for it work
+            //great way to deal with Null when a default value is required
+
+            //int? s = null;
+            //int s2 = s ?? 2;
+            //Console.WriteLine(s2);
+
         }
     }
 }
